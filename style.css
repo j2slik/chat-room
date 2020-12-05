@@ -1,0 +1,85 @@
+h1
+{
+	text-align: center;
+	font-family: "Arial";
+	font-style: normal;
+	color: indigo;
+}
+
+p
+{
+	text-align: center;
+	font-family: "Arial";
+	font-style: normal;
+	font-size: 20px;
+	color: maroon;
+}
+
+
+ul
+{
+	text-align: left;
+	color: maroon;
+	font-family: "Arial";
+	font-style: normal;
+	font-size: 20px;
+}
+
+img
+{
+	/* centers the image */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	background-color:silver;
+}
+*{box-sizing: border-box;}
+div.wrapper{
+	background-color:purple;
+	position:relative;  /* body */
+	margin:0px auto; /* center a webpage */
+	border: solid maroon 1px;
+	width: 1000px;
+	height:1350px;
+}
+div.header{
+	background-color:darksalmon;
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	height:100px;
+	border:solid maroon 1px;
+}
+div.leftMenu{
+	background-color:darksalmon;
+	position:absolute;
+	top:110px;
+	left:5px;
+	height:1130px;
+	width:150px;
+	border:solid maroon 1px;
+}
+div.content{
+	background-color:darksalmon;
+	position:absolute;
+	top: 110px;
+	left:160px;
+	right:5px;
+	height:1130px;
+	border:solid maroon 1px;
+}
+div.footer{
+	background-color:darksalmon;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	right:5px;
+	height:100px;
+	border:solid maroon 1px;
+}
+
+
