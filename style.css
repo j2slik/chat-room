@@ -13,8 +13,15 @@ p
 	font-style: normal;
 	font-size: 20px;
 	color: maroon;
+	margin:0;
+	padding:0;
 }
 
+input { font:12px arial; }
+
+form, span {
+    margin:0;
+    padding:0; }
 
 ul
 {
@@ -25,13 +32,6 @@ ul
 	font-size: 20px;
 }
 
-img
-{
-	/* centers the image */
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 body{
 	background-color:silver;
@@ -52,15 +52,6 @@ div.header{
 	left:5px;
 	right:5px;
 	height:100px;
-	border:solid maroon 1px;
-}
-div.leftMenu{
-	background-color:darksalmon;
-	position:absolute;
-	top:110px;
-	left:5px;
-	height:1130px;
-	width:150px;
 	border:solid maroon 1px;
 }
 div.content{
@@ -89,14 +80,12 @@ div.content{
 	overflow:auto;
 
 }
-div.footer{
-	background-color:darksalmon;
-	position:absolute;
-	bottom:5px;
-	left:5px;
-	right:5px;
-	height:100px;
-	border:solid maroon 1px;
-}
+
+#usermsg {
+    width:395px;
+    border:1px solid #beige; }
+  
+#submit { width: 60px; }
+
 
 
