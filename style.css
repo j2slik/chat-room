@@ -43,7 +43,7 @@ div.wrapper{
 	margin:0px auto; /* center a webpage */
 	border: solid maroon 1px;
 	width: 1000px;
-	height:1350px;
+	height:1200px;
 }
 div.header{
 	background-color:darksalmon;
@@ -68,9 +68,26 @@ div.content{
 	position:absolute;
 	top: 110px;
 	left:160px;
-	right:5px;
-	height:1130px;
+	right:160px;
+	height:1080px;
 	border:solid maroon 1px;
+}
+
+#chatbox {
+	background-color:bisque;
+	position:absolute;
+	top: 60px;
+	left:60px;
+	right:160px;
+	height:480px;
+	width:430px;
+	border:solid maroon 1px;
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+	padding:10px;
+	overflow:auto;
+
 }
 div.footer{
 	background-color:darksalmon;
