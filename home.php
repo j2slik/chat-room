@@ -19,10 +19,26 @@ define("PAGE_TITLE", "Chat Room");
 <h1>Welcome to the Chat Room</h1>
 </div>
 <div class='content'>
+
 <div id="chatbox"> 
 </div>
+
+ <form name="message" action="">
+		<input name="usermsg" type="text" id="usermsg" size="63" />
+		<input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+	</form>
 </div>
 </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+// jQuery Document
+$(document).ready(function(){
+
+});
+</script>
+
+
 </body>
 </html>
 
